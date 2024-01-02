@@ -1,6 +1,6 @@
 let winningNumber = Math.floor(Math.random() * 3) + 1;
 
-function PressMe(button) {
+function pressMe(button) {
     if (button.id === 'Pop' && winningNumber === 1) {
         alert(button.id + ' este câștigător');
     } else if (button.id === 'Pip' && winningNumber === 2) {
